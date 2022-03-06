@@ -1,0 +1,33 @@
+::selection {
+  background: #fff909;
+  color: #151515;
+}
+
+:root {
+  background: indigo;
+  color: lemonchiffon;
+}
+
+:link {
+  color: #09ff09;
+}
+
+:visited {
+  color: #fff909;
+}
+
+@media (prefers-contrast: less) {
+  :root {
+    color: peachpuff;
+  }
+
+  :any-link {
+    color: gainsboro;
+  }
+}
+
+@media (prefers-contrast: more) {
+  :root {
+    background: midnightblue;
+  }
+}

@@ -1,0 +1,29 @@
+::selection {
+  background: indigo;
+  color: lightyellow;
+}
+
+:root {
+  background: lemonchiffon;
+  color: #151515;
+}
+
+:link {
+  color: blueviolet;
+}
+
+:visited {
+  color: darkviolet;
+}
+
+@media (prefers-contrast: less) {
+  :root {
+    background: mistyrose;
+  }
+}
+
+@media (prefers-contrast: more) {
+  :root {
+    background: floralwhite;
+  }
+}
